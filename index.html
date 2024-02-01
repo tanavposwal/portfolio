@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Stack Developer Portfolio</title>
+    <!-- Include Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+
+    <!-- Include custom CSS -->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white font-sans">
+    <!-- Navigation Bar -->
+    <nav class="bg-white fixed left-0 right-0 top-0 py-6 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <div class="text-2xl font-bold">Tanav.dev</div>
+        <ul class="flex space-x-4 text-gray-600">
+          <li><a href="#" class="hover:text-black">Home</a></li>
+          <li><a href="#about" class="hover:text-black">About</a></li>
+          <li><a href="#projects" class="hover:text-black">Projects</a></li>
+          <li><a href="#contact" class="hover:text-black">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="py-24 flex text-black mt-32 items-center justify-center  w-full">
+      <div class="flex flex-col">
+        <h1 class="text-5xl font-bold mb-4">Full-Stack MERN <br> Developer <img class="inline h-16 w-16 ml-2" src="assets/hi.png"></h1>
+        <p class="text-lg">
+          Hi! I am Tanav Poswal. A passionate Full Stack <br> Developer based in Bhilwara, Rajasthan.
+        </p>
+        <div class="mt-3">
+            <p class="text-lg font-bold text-indigo-600">TECH STACK</p>
+            <div class="flex text-3xl gap-2 text-gray-500">    
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-nextjs-original"></i>
+                <i class="devicon-mongodb-plain"></i>
+                <i class="devicon-firebase-plain"></i>
+                <i class="devicon-git-plain"></i>
+            </div>
+        </div>
+      </div>
+
+      <div class="ml-16">
+        <img class="rounded-full border shadow-lg w-56" src="assets/square.jpg" alt="">
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 pt-32">
+      <div class="container mx-auto">
+        <h2 class="text-5xl font-bold mb-8 text-center">About Me</h2>
+        <div class="flex justify-center items-center">
+          <div class="max-w-xl">
+            <p class="text-lg">
+                🚀 Tanav | Passionate about AI, Web3, and Full-Stack Web Development 🌐👋 Hi, I'm Tanav, an aspiring tech enthusiast with a zeal for the future of AI and Web3. Currently exploring the realms of full-stack web development with a focus on the MERN stack.💡 AI Enthusiast: Eager to delve into the world of artificial intelligence, I'm immersing myself in machine learning, neural networks, and natural language processing to understand the foundations of AI.🌐 Web3 Explorer: Excited about the potential of Web3, I'm on a quest to comprehend its decentralized nature, blockchain applications, and the evolution of the internet.🛠️ MERN Stack Learner: Engaged in mastering the MERN stack (MongoDB, Express.js, React, Node.js), I'm honing my skills to create innovative and responsive web applications.🔍 Seeking opportunities to learn, grow, and contribute to the ever-evolving tech landscape. Let's connect and explore the future together!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-100 py-24 pt-32">
+      <div class="container mx-auto">
+        <h2 class="text-5xl font-bold mb-8 text-center">Projects</h2>
+        <!-- Add your projects here -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white shadow-md p-6 rounded-lg max-w-md">
+            <h3 class="text-xl font-bold mb-2">Expense Tracker App</h3>
+            <p>This app allows users to track their income and expenses and save them to their user ID.</p>
+            <a target="_blank" href="https://github.com/tanavposwal/expenses-tracker" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">github</a>
+          </div>
+          <div class="bg-white shadow-md p-6 rounded-lg max-w-md">
+            <h3 class="text-xl font-bold mb-2">Url Shortener</h3>
+            <p>This app allows users to make short url and monitize them.</p>
+            <a target="_blank" href="https://github.com/tanavposwal/expenses-tracker" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">github</a>
+          </div>
+          <div class="bg-white shadow-md p-6 rounded-lg max-w-md">
+            <h3 class="text-xl font-bold mb-2">Notrz</h3>
+            <p>React only todo app.</p>
+            <a target="_blank" href="https://github.com/tanavposwal/notrz" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">github</a>
+          </div>
+          <!-- Add more projects as needed -->
+        </div>
+      </div>
+      <h3 class="text-center text-xl mt-8 font-bold italic text-indigo-600">more projects coming on my github</h3>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 pt-32">
+      <div class="container mx-auto">
+        <h2 class="text-5xl font-bold mb-8 text-center">Contact Me</h2>
+        <div class="flex justify-center items-center">
+          <div class="max-w-md">
+            <p class="text-sm text-gray-600">
+              Feel free to reach out to me via email or social media.
+            </p>
+            <ul class="mt-4 text-center gap-2">
+              <li>Email: tanavposwal939@gmail.com</li>
+              <li>
+                <i class="devicon-linkedin-plain colored text-xl"></i>
+              : <a target="_blank" class="text-gray-600 hover:text-black" href="https://www.linkedin.com/in/tanav-poswal/">My LinkedIn Profile</a></li>
+              <li>
+                <i class="devicon-github-original colored text-xl"></i>
+              : <a target="_blank" class="text-gray-600 hover:text-black" href="https://github.com/tanavposwal">My Github Profile</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-indigo-800 py-4 text-white text-center">
+      <div class="container mx-auto">
+        &copy; 2024 Tanav - Full Stack Developer
+      </div>
+    </footer>
+  </body>
+</html>
