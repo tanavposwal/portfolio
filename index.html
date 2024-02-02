@@ -56,11 +56,12 @@
 
   <body class="bg-white font-sans">
     <!-- Navigation Bar -->
-    <nav class="bg-white fixed left-0 right-0 top-0 py-6 shadow-lg">
+    <nav class="navbar fixed left-0 right-0 top-0 py-6 shadow-lg z-50">
       <div class="container mx-auto flex justify-between items-center px-4">
         <div class="text-xl sm:text-2xl font-bold">Tanav.dev</div>
         <ul class="flex space-x-4 text-gray-600">
           <li><a href="#" class="hover:text-black hidden sm:block">Home</a></li>
+          <li><a href="#education" class="hover:text-black hidden sm:block">Education</a></li>
           <li><a href="#about" class="hover:text-black hidden sm:block">About</a></li>
           <li><a href="#projects" class="hover:text-black hidden sm:block">Projects</a></li>
           <li><a href="#contact" class="hover:text-black hidden sm:block">Contact</a></li>
@@ -92,18 +93,49 @@
         </div>
       </div>
       <div class="mb-10 md:ml-16 md:mb-0">
-        <img class="rounded-full border shadow-2xl w-56" src="https://media.licdn.com/dms/image/D5603AQGAAqKKVIgjcg/profile-displayphoto-shrink_200_200/0/1703482763904?e=1712188800&v=beta&t=CXrL7pFQ4ah7X3CmF_FTW23AarxL9_D4aAm1sooD5rQ" alt="">
+        <img class="rounded-full ring-4 ring-indigo-400 w-56" src="https://media.licdn.com/dms/image/D5603AQGAAqKKVIgjcg/profile-displayphoto-shrink_200_200/0/1703482763904?e=1712188800&v=beta&t=CXrL7pFQ4ah7X3CmF_FTW23AarxL9_D4aAm1sooD5rQ" alt="">
       </div>
     </header>
 
+    <section id="education" class="py-24 sm:pt-32 bg-gray-100">
+      <div class="sm:container mx-auto flex flex-col items-center">
+        <div class="flex mb-8 items-center">
+        <h2 class="text-2xl sm:text-5xl font-bold text-center">Education</h2>
+        <img class="inline h-8 w-8 sm:h-16 sm:w-16 ml-4 mb-4" src="assets/school.png">
+        </div>
+        <div class="flex justify-center items-center">
+          <div class="max-w-sm sm:max-w-md md:max-w-lg">
+            <ul class="sessions z-0">
+              <li class="timeitem">
+                <div class="time">10th school - 81%</div>
+                <p>Newlook school, Bhilwara</p>
+              </li>
+              <li class="timeitem">
+                <div class="time">12th school - 89%</div>
+                <p>A's Steward Morris, Bhilwara</p>
+              </li>
+              <li class="timeitem">
+                <div class="time">Btech in AI ML 2023 - 2027</div>
+                <p>Chandigarh Group Of Colleges, Mohali</p>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- About Section -->
     <section id="about" class="py-24 sm:pt-32">
-      <div class="sm:container mx-auto">
-        <h2 class="text-2xl sm:text-5xl font-bold mb-8 text-center">About Me</h2>
+      <div class="sm:container mx-auto flex flex-col items-center">
+        <div class="flex mb-8 items-center">
+          <h2 class="text-2xl sm:text-5xl font-bold text-center">About Me</h2>
+          <img class="inline h-8 w-8 sm:h-16 sm:w-16 ml-4 mb-2" src="assets/about.png">
+          </div>
         <div class="flex justify-center items-center">
-          <div class="max-w-lg sm:max-w-xl">
+          <div class="max-w-sm sm:max-w-md md:max-w-lg">
             <p class="text-sm text-center sm:text-left sm:text-lg">
-                🚀 Tanav | Passionate about AI, Web3, and Full-Stack Web Development 🌐👋 Hi, I'm Tanav, an aspiring tech enthusiast with a zeal for the future of AI and Web3. Currently exploring the realms of full-stack web development with a focus on the MERN stack.💡 AI Enthusiast: Eager to delve into the world of artificial intelligence, I'm immersing myself in machine learning, neural networks, and natural language processing to understand the foundations of AI.🌐 Web3 Explorer: Excited about the potential of Web3, I'm on a quest to comprehend its decentralized nature, blockchain applications, and the evolution of the internet.🛠️ MERN Stack Learner: Engaged in mastering the MERN stack (MongoDB, Express.js, React, Node.js), I'm honing my skills to create innovative and responsive web applications.🔍 Seeking opportunities to learn, grow, and contribute to the ever-evolving tech landscape. Let's connect and explore the future together!
+              🚀 Tanav is an AI, Web3, and Full-Stack Web Development enthusiast. 👋 Hi, I'm Tanav! Passionate about AI and Web3, I explore MERN stack. 💡 Delving into AI, learning ML, neural networks, and NLP. 🌐 Excited about Web3's decentralization and blockchain. 🛠️ Mastering MERN stack, seeking growth in tech. Let's connect! 🌱
             </p>
           </div>
         </div>
@@ -112,24 +144,27 @@
 
     <!-- Projects Section -->
     <section id="projects" class="bg-gray-100 py-24 px-6 sm:px-0 sm:pt-32">
-      <div class="container mx-auto">
-        <h2 class="text-2xl sm:text-5xl font-bold mb-8 text-center">Projects</h2>
-        <!-- Add your projects here -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-white shadow-md p-6 rounded-lg max-w-md">
-            <h3 class="text-md sm:text-xl font-bold mb-2">Expense Tracker App</h3>
-            <p class="text-gray-600">This app allows users to track their income and expenses and save them to their user ID.</p>
-            <a target="_blank" href="https://github.com/tanavposwal/expenses-tracker" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">github</a>
+      <div class="container mx-auto flex flex-col items-center">
+        <div class="flex mb-8 items-center">
+          <h2 class="text-2xl sm:text-5xl font-bold text-center">Projects</h2>
+          <img class="inline h-8 w-8 sm:h-16 sm:w-16 ml-4" src="assets/projects.png">
           </div>
-          <div class="bg-white shadow-md p-6 rounded-lg max-w-md">
+        <!-- Add your projects here -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center px-auto">
+          <div class="p-6 rounded-lg max-w-fit md:max-w-md text-center">
+            <h3 class="text-md sm:text-xl font-bold mb-2">Expense Tracker App</h3>
+            <p class="text-gray-600">This app allows users to track their money.</p>
+            <a target="_blank" href="https://github.com/tanavposwal/expenses-tracker" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">View Project</a>
+          </div>
+          <div class="p-6 rounded-lg max-w-fit md:max-w-md  text-center">
             <h3 class="text-md sm:text-xl font-bold mb-2">Url Shortener</h3>
             <p class="text-gray-600">This app allows users to make short url and monitize them.</p>
-            <a target="_blank" href="https://github.com/tanavposwal/url-shortener" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">github</a>
+            <a target="_blank" href="https://github.com/tanavposwal/url-shortener" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">View Project</a>
           </div>
-          <div class="bg-white shadow-md p-6 rounded-lg max-w-md">
+          <div class="p-6 rounded-lg max-w-fit md:max-w-md  text-center">
             <h3 class="text-md sm:text-xl font-bold mb-2">Notrz</h3>
             <p class="text-gray-600">React only todo app.</p>
-            <a target="_blank" href="https://github.com/tanavposwal/notrz" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">github</a>
+            <a target="_blank" href="https://github.com/tanavposwal/notrz" class="text-blue-700 hover:text-blue-800 hover:underline mt-1">View Project</a>
           </div>
           <!-- Add more projects as needed -->
         </div>
@@ -139,22 +174,28 @@
 
     <!-- Contact Section -->
     <section id="contact" class="py-24 pt-32">
-      <div class="container mx-auto">
-        <h2 class="text-2xl sm:text-5xl font-bold mb-8 text-center">Contact Me</h2>
-        <div class="flex justify-center items-center">
+      <div class="container mx-auto flex flex-col items-center">
+        <div class="flex mb-8 items-center">
+          <h2 class="text-2xl sm:text-5xl font-bold text-center">Contact Me</h2>
+          <img class="inline h-8 w-8 sm:h-16 sm:w-16 ml-4" src="assets/mail.png">
+          </div>
+        <div class="flex justify-center items-center mt-6">
           <div class="max-w-md">
             <p class="text-xs sm:text-sm text-gray-600">
               Feel free to reach out to me via email or social media.
             </p>
-            <ul class="mt-4 text-center gap-2">
-              <li>Email: tanavposwal939@gmail.com</li>
-              <li>
-                <i class="devicon-linkedin-plain colored text-xl"></i>
-              : <a target="_blank" class="text-gray-600 hover:text-black" href="https://www.linkedin.com/in/tanav-poswal/">My LinkedIn Profile</a></li>
-              <li>
-                <i class="devicon-github-original colored text-xl"></i>
-              : <a target="_blank" class="text-gray-600 hover:text-black" href="https://github.com/tanavposwal">My Github Profile</a></li>
-            </ul>
+            <div class="flex">
+              <div class="flex flex-col flex-1 gap-2 items-end border-r-4 border-gray-400 pr-2">
+              <p>Email</p> 
+              <i class="devicon-linkedin-plain colored text-xl"></i>
+              <i class="devicon-github-original colored text-xl mt-1"></i>
+            </div>
+            <div class="flex flex-col flex-2 gap-2 pl-2">
+              <p>tanavposwal939@gmail.com</p>
+              <a target="_blank" class="text-gray-600 hover:text-black" href="https://www.linkedin.com/in/tanav-poswal/">My LinkedIn Profile</a>
+              <a target="_blank" class="text-gray-600 hover:text-black" href="https://github.com/tanavposwal">My Github Profile</a>
+            </div>
+              </div>
           </div>
         </div>
       </div>
